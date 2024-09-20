@@ -64,7 +64,7 @@ i {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 5%;
-  height: 90vh;
+  height: 100vh;
   filter: blur(8px);
   -webkit-filter: blur(8px);
 }
@@ -74,7 +74,8 @@ i {
   top: 0;
   left: 0;
   right: 0;
-  height: 90vh;
+  height: 100vh;
+  margin: 0 auto;
 }
 .container-width {
   max-width: 1300px;
@@ -281,5 +282,14 @@ div {
   }
   .copyright {
     padding: 0 2rem;
+  }
+  .main-nav{
+    position: relative;
+    right: 4.8rem;
+  }
+  .header-copyright{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
   }
 }
